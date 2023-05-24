@@ -9,5 +9,6 @@ package part2_assignment_pdc;
  * @author anika
  */
 public class WelcomeWindow1 {
+    //Hi how are you
     
 }
