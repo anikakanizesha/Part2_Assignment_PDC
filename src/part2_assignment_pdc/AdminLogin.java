@@ -12,6 +12,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
@@ -96,11 +97,48 @@ public class AdminLogin extends JFrame{
                     textFieldPassword.setText(null);
                     textFieldUsername.setText(null);
                 }
+                else{
+                    JOptionPane.showMessageDialog(null,"Details invalid","Cannot Login",JOptionPane.ERROR_MESSAGE);
+                    textFieldPassword.setText(null);
+                    textFieldUsername.setText(null);
+                }
                 
                 
             }
             
-        }
+        });
+        btnNewButton.setForeground(new Color(0,0,0));
+        btnNewButton.setBackground(new  Color(250,240,230));
+        btnNewButton.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton.setBounds(66,264,90,40);
+        contentPane.add(btnNewButton);
+        
+        JButton btnNewButton_first = new JButton("RESET");
+        btnNewButton_first.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                textFieldUsername.setText(null);
+                textFieldPassword.setText(null);
+            }
+        
+        
+    });
+        
+        btnNewButton_first.setBackground(new Color(250, 240, 230));
+        btnNewButton_first.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton_first.setBounds(266,264,90,40);
+        contentPane.add(btnNewButton_first);
+        
+        JButton btnNewButton_second = new JButton("PRESS EXIT");
+        btnNewButton_first.setBackground(new Color(250, 240, 230));
+        btnNewButton_first.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton_first.setBounds(455,264,90,40);
+        contentPane.add(btnNewButton_second);
+        
+        JButton btnNewButton_third = new JButton("Return To Welcome Page");
+        btnNewButton_first.setBackground(new Color(250, 240, 230));
+        btnNewButton_first.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton_first.setBounds(103,333,403,53);
+        contentPane.add(btnNewButton_third);
         
         
         
