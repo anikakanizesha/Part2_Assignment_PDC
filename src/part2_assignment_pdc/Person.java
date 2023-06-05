@@ -38,6 +38,22 @@ public class Person  {
     public void setCustomerAge(int customerAge){
         this.customerAge = customerAge;
     }
+    public String getCustomerAddress(){
+        return this.customerAddress;
+    }
+    public void setCustomerAddress(String customerAddress)
+    {
+        this.customerAddress = customerAddress;
+    }
+    
+    @Override
+    public String toString(){
+        return "Name: " + getName() + "\n"+ 
+                "Age: " + getCustomerAge() + "\n"+
+                "Address: " + getCustomerAddress() + "\n";
+        
+    }
+    
     
     
     
