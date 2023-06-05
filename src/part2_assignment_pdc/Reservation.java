@@ -8,6 +8,16 @@ package part2_assignment_pdc;
  *
  * @author anika
  */
-public class Reservation {
+public abstract class Reservation extends Person {
+    
+    public Reservation(){
+        
+    }
+    public Reservation(String name, int customerAge, String customerAddress )
+    {
+        super(name, customerAge, customerAddress);
+    }
+    
+    
     
 }
