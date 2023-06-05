@@ -18,6 +18,15 @@ public abstract class Reservation extends Person {
         super(name, customerAge, customerAddress);
     }
     
+    public abstract void addRoom(Room newRoom);
+    public abstract void printRooms();
+    public abstract int getNumberOfRooms();
+    public abstract double getPayment();
     
-    
+     public String toString(){
+        return  "name: " + getName() + "\n" +
+                "age: " + getCustomerAge() + "\n" +
+                "address: " + getCustomerAddress() + "\n";
+     }
+     
 }
