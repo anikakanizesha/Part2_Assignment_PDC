@@ -30,43 +30,43 @@ public class Customer extends Person{
     }
 
 
-    public double getCgpa() {
-        return this.cgpa;
+    public double getDaysStaying() {
+        return this.daysStaying;
     }
 
-    public void setCgpa(double cgpa) {
-        this.cgpa = cgpa;
+    public void setDaysStaying(double daysStaying) {
+        this.daysStaying = daysStaying;
     }
 
-    public String getId() {
-        return this.id;
+    public String getReservationCode() {
+        return this.reservationCode;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setReservationCode(String reservationCode) {
+        this.reservationCode = reservationCode;
     }
 
-    public Course[] getCourses() {
-        return this.courses;
+    public Room[] getRooms() {
+        return this.rooms;
     }
 
     public int getNumberOfCourses() {
-        return this.numberOfCourses;
+        return this.numberOfRooms;
     }
 
-    public void addCourse(Course newCourse){
-        if(numberOfCourses<courses.length){
-            courses[numberOfCourses] = newCourse;
-            numberOfCourses++;
+    public void addCourse(Room newRoom){
+        if(numberOfRooms<rooms.length){
+            rooms[numberOfRooms] = newRoom;
+            numberOfRooms++;
         }else{
-            System.out.println("You are not allowed to take more than " + courses.length + " courses \n");
+            System.out.println("You are not allowed to book more than " + rooms.length + " rooms \n");
         }
         
     }
 
-    public void printCourses(){
-        for (int i = 0; i < numberOfCourses; i++) {
-             System.out.print(courses[i].toString());
+    public void printRooms(){
+        for (int i = 0; i < numberOfRooms; i++) {
+             System.out.print(rooms[i].toString());
         }
         System.out.println();
     }
@@ -77,8 +77,8 @@ public class Customer extends Person{
     @Override
     public String toString(){
         return super.toString() + 
-                "cgpa: " + getCgpa() + "\n" +
-                "id: " + getId() + "\n";
+                "Days staying: " + getDaysStaying() + "\n" +
+                "Reservation Code: " + getReservationCode() + "\n";
     }
 
 }
