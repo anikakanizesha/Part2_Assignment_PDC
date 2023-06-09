@@ -60,7 +60,30 @@ public class Information {
     System.out.println(customer2.toString());
     customer2.printRooms();
 
+    //Task 4
+    System.out.println("----------------------- Family of 4 with permanent booking -----------------------");
+
+    PermanentReservation r1 = new PermanentReservation("Robert and family", 30, "Mount Eden");
     
+    r1.addRoom(LEVEL1_RIGHT);
+    r1.addRoom(LEVEL3_ROYALSUIT);
+    r1.addRoom(LEVEL2_MIDDLE);
+    r1.addRoom(LEVEL1_LEFT);
+
+    System.out.println(r1.toString());
+    r1.printRooms();
+
+    
+    //PART 5
+    System.out.println("----------------------- Family of 4 with permanent booking -----------------------");
+
+    r1.addRoom(LEVEL1_RIGHT);
+    r1.addRoom(LEVEL2_RIGHT);
+    r1.addRoom(LEVEL2_LEFT);
+    r1.addRoom(LEVEL2_MIDDLE);
+
+    System.out.println(r1.toString());
+    r1.printRooms();
     
     
 
@@ -80,4 +103,5 @@ public class Information {
     
     
   }
+    
 }
