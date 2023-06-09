@@ -12,13 +12,13 @@ import java.util.Scanner;
 
 public class Information {
     public static void main(String[] args) {
-    Room LEVEL1_RIGHT = new Room("Floor 1, level 1", "101");
-    Room LEVEL1_LEFT = new Room("Floor 2, level 2", "102");
-    Room LEVEL1_MIDDLE = new Room("Floor 3, level 3", "103");
-    Room LEVEL2_RIGHT = new Room("Floor 4, level 4", "104");
-    Room LEVEL2_LEFT = new Room("Floor 5, level 5", "105");
-    Room LEVEL2_MIDDLE = new Room("Floor 6, level 6", "106");
-    Room LEVEL3_ROYALSUIT = new Room("Floor 7, level 7", "107");
+    Room LEVEL1_RIGHT = new Room("Floor 1, right room", "101");
+    Room LEVEL1_LEFT = new Room("Floor 1, left room", "102");
+    Room LEVEL1_MIDDLE = new Room("Floor 1, middle room", "103");
+    Room LEVEL2_RIGHT = new Room("Floor 2, right room", "104");
+    Room LEVEL2_LEFT = new Room("Floor 2, left room", "105");
+    Room LEVEL2_MIDDLE = new Room("Floor 2, middle room", "106");
+    Room LEVEL3_ROYALSUIT = new Room("Floor 3, special room", "107");
 
     Scanner input = new Scanner(System.in);
 
@@ -47,7 +47,7 @@ public class Information {
 
 
 
-    //Task 3
+    //PART 3
     System.out.println("----------------------- SECOND FAMILY OF 5 -----------------------");
 
     Customer customer2 = new Customer("Juliana and family",24,"Wellington",2.4,"1234765");
@@ -65,10 +65,10 @@ public class Information {
     
 
 
-    //Task 6
-    System.out.println("----------------------- Task 6 -----------------------");
+    //PART 6
+    System.out.println("----------------------- Family of 3 with Payment confirmation -----------------------");
 
-    Sort sortPayment = new Sort("Mariam", 28, "TAURANGA");
+    Sort sortPayment = new Sort("Mariam and family", 28, "TAURANGA");
     sortPayment.addRoom(LEVEL2_LEFT);
     sortPayment.addRoom(LEVEL2_RIGHT);
     sortPayment.addRoom(LEVEL2_MIDDLE);
