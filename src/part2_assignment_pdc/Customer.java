@@ -50,11 +50,11 @@ public class Customer extends Person{
         return this.rooms;
     }
 
-    public int getNumberOfCourses() {
+    public int getNumberOfRooms() {
         return this.numberOfRooms;
     }
 
-    public void addCourse(Room newRoom){
+    public void addRoom(Room newRoom){
         if(numberOfRooms<rooms.length){
             rooms[numberOfRooms] = newRoom;
             numberOfRooms++;
