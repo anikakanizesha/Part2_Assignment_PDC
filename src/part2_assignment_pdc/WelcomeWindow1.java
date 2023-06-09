@@ -24,7 +24,7 @@ import java.awt.event.ActionEvent;
  *
  * @author anika
  */
-public class WelcomeWindow1 {
+public class WelcomeWindow1  {
 
 	private JFrame frame;
 
@@ -43,6 +43,7 @@ public class WelcomeWindow1 {
 			}
 		});
 	}
+        
 
 	/**
 	 * Create the application.
@@ -68,7 +69,7 @@ public class WelcomeWindow1 {
 		panel.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Welcome to Online Portal");
-		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 25));
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 25));
 		lblNewLabel.setBounds(109, 10, 338, 52);
 		panel.add(lblNewLabel);
 		
@@ -82,11 +83,11 @@ public class WelcomeWindow1 {
 			}
 		});
 		btnNewButton.setBackground(SystemColor.menu);
-		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnNewButton.setFont(new Font("Arial", Font.BOLD, 20));
 		btnNewButton.setBounds(164, 147, 270, 62);
 		frame.getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("Student Login");
+		JButton btnNewButton_1 = new JButton("Customer Login");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frame.dispose();
@@ -95,11 +96,11 @@ public class WelcomeWindow1 {
 			}
 		});
 		btnNewButton_1.setBackground(SystemColor.menu);
-		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnNewButton_1.setFont(new Font("Arial", Font.BOLD, 20));
 		btnNewButton_1.setBounds(164, 219, 270, 55);
 		frame.getContentPane().add(btnNewButton_1);
 		
-		JButton btnNewButton_2 = new JButton("Faculty Login");
+		JButton btnNewButton_2 = new JButton("Reservation Login");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frame.dispose();
@@ -108,7 +109,7 @@ public class WelcomeWindow1 {
 			}
 		});
 		btnNewButton_2.setBackground(SystemColor.menu);
-		btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnNewButton_2.setFont(new Font("Arial", Font.BOLD, 20));
 		btnNewButton_2.setBounds(164, 284, 270, 62);
 		frame.getContentPane().add(btnNewButton_2);
 		frame.setBounds(100, 100, 649, 455);
