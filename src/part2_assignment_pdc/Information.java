@@ -60,7 +60,7 @@ public class Information {
     System.out.println(customer2.toString());
     customer2.printRooms();
 
-    //Task 4
+    //PART 4
     System.out.println("----------------------- Family of 4 with permanent booking -----------------------");
 
     PermanentReservation r1 = new PermanentReservation("Robert and family", 30, "Mount Eden");
