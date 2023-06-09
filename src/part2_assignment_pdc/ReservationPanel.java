@@ -67,7 +67,7 @@ public class ReservationPanel extends JFrame {
 		panel.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("The total cost is =");
-		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_1.setFont(new Font("Arial", Font.PLAIN, 15));
 		lblNewLabel_1.setBounds(39, 115, 273, 33);
 		contentPane.add(lblNewLabel_1);
 		
@@ -77,12 +77,12 @@ public class ReservationPanel extends JFrame {
 				JOptionPane.showMessageDialog(null, "200$ per day");
 			}
 		});
-		btnClick1.setFont(new Font("Tahoma", Font.BOLD, 16));
+		btnClick1.setFont(new Font("Arial", Font.BOLD, 16));
 		btnClick1.setBounds(343, 123, 85, 21);
 		contentPane.add(btnClick1);
 		
 		JLabel lblNewLabel_2 = new JLabel("Total cost for staying over 2 days=");
-		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_2.setFont(new Font("Arial", Font.PLAIN, 15));
 		lblNewLabel_2.setBounds(38, 177, 274, 21);
 		contentPane.add(lblNewLabel_2);
 		
@@ -92,7 +92,7 @@ public class ReservationPanel extends JFrame {
 				JOptionPane.showMessageDialog(null, "100$ per day ");
 			}
 		});
-		btnClick2.setFont(new Font("Tahoma", Font.BOLD, 15));
+		btnClick2.setFont(new Font("Arial", Font.BOLD, 15));
 		btnClick2.setBounds(343, 177, 85, 21);
 		contentPane.add(btnClick2);
 	}
