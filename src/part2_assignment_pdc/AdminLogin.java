@@ -64,16 +64,16 @@ public class AdminLogin extends JFrame{
         JLabel lblNewLabel = new JLabel("Login for Admin");
         lblNewLabel.setForeground(new Color(25,25,112));
         lblNewLabel.setBackground(UIManager.getColor("CheckBox.background"));
-        lblNewLabel.setFont(new Font("Meadow", Font.BOLD, 30));
+        lblNewLabel.setFont(new Font("Arial", Font.BOLD, 30));
         panel.add(lblNewLabel);
         
         JLabel lblNewLabel_1 = new JLabel("Username");
-        lblNewLabel.setFont(new Font("Meadow", Font.BOLD, 18));
+        lblNewLabel.setFont(new Font("Arial", Font.BOLD, 18));
         lblNewLabel_1.setBounds(62,126,94,13);
         panel.add(lblNewLabel_1);
         
         JLabel lblNewLabel_2 = new JLabel("Password");
-        lblNewLabel.setFont(new Font("Meadow", Font.BOLD, 18));
+        lblNewLabel.setFont(new Font("Arial", Font.BOLD, 18));
         lblNewLabel_1.setBounds(62,174,94,13);
         panel.add(lblNewLabel_2);
         
@@ -113,8 +113,8 @@ public class AdminLogin extends JFrame{
         btnNewButton.setBounds(66,264,90,40);
         contentPane.add(btnNewButton);
         
-        JButton btnNewButton_first = new JButton("RESET");
-        btnNewButton_first.addActionListener(new ActionListener(){
+        JButton btnNewButton_1 = new JButton("RESET");
+        btnNewButton_1.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 textFieldUsername.setText(null);
                 textFieldPassword.setText(null);
@@ -123,22 +123,22 @@ public class AdminLogin extends JFrame{
         
     });
         
-        btnNewButton_first.setBackground(new Color(250, 240, 230));
-        btnNewButton_first.setFont(new Font("Arial", Font.BOLD, 15));
-        btnNewButton_first.setBounds(266,264,90,40);
-        contentPane.add(btnNewButton_first);
+        btnNewButton_1.setBackground(new Color(250, 240, 230));
+        btnNewButton_1.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton_1.setBounds(266,264,90,40);
+        contentPane.add(btnNewButton_1);
         
-        JButton btnNewButton_second = new JButton("PRESS EXIT");
-        btnNewButton_first.setBackground(new Color(250, 240, 230));
-        btnNewButton_first.setFont(new Font("Arial", Font.BOLD, 15));
-        btnNewButton_first.setBounds(455,264,90,40);
-        contentPane.add(btnNewButton_second);
+        JButton btnNewButton_2 = new JButton("PRESS EXIT");
+        btnNewButton_2.setBackground(new Color(250, 240, 230));
+        btnNewButton_2.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton_2.setBounds(455,264,90,40);
+        contentPane.add(btnNewButton_2);
         
-        JButton btnNewButton_third = new JButton("Return To Welcome Page");
-        btnNewButton_first.setBackground(new Color(250, 240, 230));
-        btnNewButton_first.setFont(new Font("Arial", Font.BOLD, 15));
-        btnNewButton_first.setBounds(103,333,403,53);
-        contentPane.add(btnNewButton_third);
+        JButton btnNewButton_3 = new JButton("Return To Welcome Page");
+        btnNewButton_3.setBackground(new Color(250, 240, 230));
+        btnNewButton_3.setFont(new Font("Arial", Font.BOLD, 15));
+        btnNewButton_3.setBounds(103,333,403,53);
+        contentPane.add(btnNewButton_3);
         
         
         
