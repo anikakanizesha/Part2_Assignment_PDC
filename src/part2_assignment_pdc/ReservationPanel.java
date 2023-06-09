@@ -63,7 +63,7 @@ public class ReservationPanel extends JFrame {
 		contentPane.add(panel);
 		
 		JLabel lblNewLabel = new JLabel("Reservation Panel");
-		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 30));
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 30));
 		panel.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("The total cost is =");
