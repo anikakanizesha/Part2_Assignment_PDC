@@ -90,8 +90,10 @@ public class WelcomeWindow1  {
 		JButton btnNewButton_1 = new JButton("Customer Login");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+                                 // Disposes the current frame
 				frame.dispose();
 				CustomerLogin st = new CustomerLogin();
+                                 // Creates and shows the CustomerLogin window
 				st.setVisible(true);
 			}
 		});
@@ -103,7 +105,9 @@ public class WelcomeWindow1  {
 		JButton btnNewButton_2 = new JButton("Reservation Login");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+                                // Disposes the current frame
 				frame.dispose();
+                                 // Creates and shows the CustomerLogin window
 				ReservationLogin ft = new ReservationLogin();
 				ft.setVisible(true);
 			}
