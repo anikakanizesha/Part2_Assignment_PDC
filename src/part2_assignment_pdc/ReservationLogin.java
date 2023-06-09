@@ -67,11 +67,11 @@ public class ReservationLogin extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("Reservation Login");
 		lblNewLabel.setForeground(new Color(25, 25, 112));
-		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 28));
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 28));
 		panel.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("Username");
-		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblNewLabel_1.setFont(new Font("Arial", Font.PLAIN, 18));
 		lblNewLabel_1.setBounds(44, 114, 94, 13);
 		contentPane.add(lblNewLabel_1);
 		
@@ -81,7 +81,7 @@ public class ReservationLogin extends JFrame {
 		textFieldUsername.setColumns(10);
 		
 		JLabel lblNewLabel_2 = new JLabel("Password");
-		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblNewLabel_2.setFont(new Font("Arial", Font.PLAIN, 18));
 		lblNewLabel_2.setBounds(44, 187, 91, 13);
 		contentPane.add(lblNewLabel_2);
 		
@@ -112,7 +112,7 @@ public class ReservationLogin extends JFrame {
 			}
 		});
 		btnNewButton.setBackground(new Color(250, 240, 230));
-		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 15));
+		btnNewButton.setFont(new Font("Arial", Font.BOLD, 15));
 		btnNewButton.setBounds(50, 261, 100, 40);
 		contentPane.add(btnNewButton);
 		
@@ -124,7 +124,7 @@ public class ReservationLogin extends JFrame {
 			}
 		});
 		btnNewButton_1.setBackground(new Color(250, 240, 230));
-		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 15));
+		btnNewButton_1.setFont(new Font("Arial", Font.BOLD, 15));
 		btnNewButton_1.setBounds(255, 261, 100, 40);
 		contentPane.add(btnNewButton_1);
 		
@@ -134,13 +134,13 @@ public class ReservationLogin extends JFrame {
 			}
 		});
 		btnNewButton_2.setBackground(new Color(250, 240, 230));
-		btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, 15));
+		btnNewButton_2.setFont(new Font("Arial", Font.BOLD, 15));
 		btnNewButton_2.setBounds(471, 261, 100, 40);
 		contentPane.add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("Go Back To Welcome Page");
 		btnNewButton_3.setBackground(new Color(250, 240, 230));
-		btnNewButton_3.setFont(new Font("Tahoma", Font.BOLD, 20));
+		btnNewButton_3.setFont(new Font("Arial", Font.BOLD, 20));
 		btnNewButton_3.setBounds(133, 325, 383, 51);
 		contentPane.add(btnNewButton_3);
 	}
